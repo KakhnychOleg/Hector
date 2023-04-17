@@ -65,3 +65,16 @@ isWebp()
 /* Раскомментировать для использования */
 // togglePopupWindows()
 // =======================================================================================================
+
+$(document).ready(function(){
+  $('.slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    vertical: true,
+    verticalSwiping: true
+  });
+});

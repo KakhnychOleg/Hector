@@ -6,15 +6,57 @@
   }
   // .header__container
   &__container {
-    height: rem($headerHeight);
+    // height: rem($headerHeight);S
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-top: 2.0625rem;
+  }
+  // header__left
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+  // header__icon
+  &__icon {
+    display: flex;
+    gap: 4.5625rem; //73px
+  }
+  // header__logo
+  &__logo {
+    margin: 0 4.875rem;
   }
 }
 // =====================================================================================================================
 
+.menu {
+  &__list {
+    display: flex;
+    gap: 26px;
+  }
+
+  // menu__link
+  &__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+
+    color: $blackColor;
+    transition: all .3s ease;
+
+    &:hover path,
+    &:hover {
+      color: #878787;
+    }
+  }
+}
+
+
+
 // Burger
-/*
 .icon-menu {
   display: none;
   @include media(767) {
@@ -59,4 +101,3 @@
     }
   }
 }
-*/

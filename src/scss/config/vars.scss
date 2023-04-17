@@ -37,3 +37,26 @@ $lightBoxShadow:  0 0 2px 0 rgba(#000, 10%),
 $hoverBoxShadow:  0 0 5px 0 rgba(#000, 10%), 
                   0 0 10px 0 rgba(#000, 10%), 
                   0 0 15px 0 rgba(#000, 10%);
+
+.button {
+   margin: 0 auto;
+}
+
+.btn {
+   display: block;
+   font-family: 'Montserrat';
+   font-size: 1.125rem;
+   line-height: 22px;
+   letter-spacing: 0.07em;
+   text-transform: uppercase;
+   background: transparent;
+   padding: 25px 60px;
+   border: 1px solid $blackColor;
+   transition: all .3s ease;
+   
+   color: $blackColor; 
+
+   &:hover {
+      background: #cecece;
+   }  
+}

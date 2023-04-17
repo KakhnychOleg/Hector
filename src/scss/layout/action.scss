@@ -1,0 +1,49 @@
+.action {
+   background: #F5F5F5;
+   padding: 30px 0;
+
+   // .action__list
+   &__list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+   }
+
+   // .action__item
+   &__item {
+      background: #fff;
+      height: 241px;
+      overflow: hidden;
+   }
+}
+.card {
+   display: flex;
+   align-items: center;
+
+   // .card__img
+   &__img {
+   }
+
+   // .card__title
+   &__title {
+      font-family: 'MontserratBold';
+      font-size: 1.875rem;
+      line-height: 37px;
+      letter-spacing: 0.07em;
+
+      color: $blackColor;
+      margin-bottom: 16px;
+   }
+
+   // .card__subtitle
+   &__subtitle {
+      
+      font-family: 'MontserratLight';
+      font-size: 1rem;
+      line-height: 20px;
+      letter-spacing: 0.07em;
+
+      color: $blackColor;
+   }
+}
